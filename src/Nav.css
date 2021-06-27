@@ -1,0 +1,55 @@
+.listItems > li{
+	float: left;
+	color:papayawhip;
+	text-decoration: none;
+	padding-right:10px ;
+	padding-left: 10px;
+	
+	
+    
+
+}
+
+.listItems{
+	
+	
+	list-style-type: none;
+
+	font-weight: 400;
+	font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	padding-inline-start: 10px;
+	
+
+  
+}
+.listItems > li > a{
+	text-decoration: none;
+	
+}
+a{
+	color:white;
+}
+
+.navBlack{
+	color:white;
+	background-color: black;
+}
+
+.navBar{
+	position:fixed;
+	top:0;
+	margin-left: auto;
+	margin-right: auto;
+    text-align: center;
+	justify-content: center;
+	width: 100%;
+	display: flex;
+}
+
+.isCurrent {
+  font-weight: bold;
+}
+
+.isCurrent a {
+  color:orangered;
+}

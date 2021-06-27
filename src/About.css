@@ -1,0 +1,91 @@
+.about_container{
+	margin-left: auto;
+	margin-right: auto;
+	display: grid;
+	justify-content: center;
+	background-color: #2B2B2B;
+	
+	grid-template-columns:  auto auto;
+	column-gap: 100px;
+}
+
+
+.profile-pic{
+	height: 150px;
+	float:left;
+	border-radius: 50%;
+	padding: 20px;
+	margin-top: 110px;
+}
+
+.about_details{
+	float:right;
+	margin-top: 100px;
+	margin-bottom: 50px;
+	font-size: 1.2rem;
+	padding-right: 10px;
+}
+.about_details >p{
+	height: fit-content;
+	max-width: 700px;
+	color:gray;
+	text-align: left;
+}
+.about_details >h2{
+	color: white;
+	text-align: left;
+}
+
+.resume >h3> a{
+	text-decoration: none;
+	color:white;
+	
+	padding: 5px;
+	height: 10px;
+	background-color:grey ;
+	justify-content: center;
+	
+	
+}
+.resume{
+	text-align: left;
+	margin-top: 50px;
+}
+
+.resumeTitle{
+	padding-left: 5px;
+	margin-bottom: 10px;
+	
+}
+
+.resume > h3{
+	width: fit-content;
+	height: fit-content;
+}
+
+@media screen and (max-width: 600px) {
+	.about_container{
+		display: grid !important;
+		grid-template-columns:  auto !important;
+		
+		padding:30px ;
+		
+		justify-content: center;
+	}
+
+	.about_details {
+		margin-top: 50px;
+	
+	}
+	.about_details > h2{
+		text-align: center;
+	}
+	.profile-pic{
+		margin-top: 50px;
+
+	}
+	.about_img{
+		padding-left: 75px;
+		
+	}
+}

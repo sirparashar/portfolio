@@ -1,0 +1,41 @@
+.project_items{
+	left: 0;
+	float: left;
+	width: fit-content;
+	padding:10px;
+	margin:10px;
+	
+	
+}
+.project_items > img{
+	height:180px;
+	width:200px;
+	padding: 5px;
+	border: 1px solid #95A3A3 ;
+	border-radius: 5px;
+	
+}
+.desc{
+	background: #EBEEEE;
+	visibility: hidden;
+	align-items: center;
+	transition: opacity .2s, visibility .2s;
+}
+
+.project_items:hover .desc{
+	visibility: visible;
+	opacity: 1;
+}
+.desc{
+	transition: .2s;
+  transform: translateY(1em);
+}
+.project_items > h2{
+	width: 200px;
+	margin: 0;
+	font-size: 1rem;
+}
+.desc > a{
+	text-decoration: none;
+	color:#95A3A3 ;
+}

@@ -1,0 +1,27 @@
+.footer_container{
+	background:rgb(20, 20, 20);
+}
+
+.socialMedia{
+	display: flex;
+	justify-content: center;
+	padding: 50px;
+	padding-bottom: 20px;
+}
+
+.socialMedia > a:hover{
+	transform: scale(1.2);
+	
+}
+
+.footer_container > h3{
+	color:rgb(214, 212, 212);
+	padding-bottom: 20px;
+	display: flex;
+	margin-bottom: 0;
+	font-weight: 300;
+	letter-spacing: 2px;
+	
+	
+justify-content: center;
+}

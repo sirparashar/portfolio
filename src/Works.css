@@ -1,0 +1,59 @@
+.work_container_flex{
+	 display:flex;
+   justify-content: center;
+   flex-direction: row;
+    padding-top: 20px;
+   margin-top: 20px;
+   overflow-x: scroll;
+ 
+   
+}
+
+
+.work{
+	margin-top: 50px;
+	padding: 40px;
+	justify-content: center;
+	align-items: center;
+	
+	
+	background-color: #EBEEEE;
+}
+
+.work_container_flex::-webkit-scrollbar{
+	display: none;
+}
+
+.work > h2{
+	text-align: center;
+}
+
+
+/* .work_fadebutton{
+	height: 2.4rem;
+	background-image: linear-gradient(
+		180deg,
+		transparent,
+		rgba(37,37,37,0.61),
+		#111
+	); 
+}*/
+.work_container{
+	object-fit: contain;
+}
+
+@media screen and (max-width:600px){
+
+.work_container_flex{
+	 display:flex;
+   justify-content: center;
+   flex-direction: column;
+    padding-top: 20px;
+   margin-top: 20px;
+   overflow-y: scroll;
+   padding-left: 35px;
+  
+   object-fit: contain;
+} 
+	
+}

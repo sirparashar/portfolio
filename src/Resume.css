@@ -1,0 +1,74 @@
+.education{
+	display: grid;
+	grid-template-columns: auto auto;
+	border-bottom: 1px solid rgb(196, 193, 193);
+	padding-left: 10px;
+	
+
+}
+.resume{
+		max-width: 1000px;
+		margin-left: auto;
+		margin-right: auto;
+		padding-left: 20px;
+		padding-right: 20px;
+}
+.resume_work{
+	padding: 10px 10px;
+	
+	display: grid;
+	grid-template-columns: auto auto;
+	grid-template-columns: auto auto;
+	border-bottom: 1px solid rgb(196, 193, 193);
+
+
+}
+
+.skill{
+	padding: 10px 10px;
+	display: grid;
+	grid-template-columns: auto auto;
+  
+}
+
+
+
+.work_desc > p{
+	padding-left: 170px;
+}
+
+.titles{
+	border-bottom: 4px solid gray;
+	padding-bottom: 2px;
+	width: fit-content;
+	height: fit-content;
+	border-color: cornflowerblue;
+
+}
+
+@media screen and (max-width:600px) {
+	.resume_work{
+		max-width: 300px;
+		
+      }
+
+	.education{
+	display: grid;
+	grid-template-columns: auto ;
+	}
+	.resume_work{
+	display: grid;
+	grid-template-columns: auto ;  
+    }
+    .work_desc > p{
+	padding-left: 0; 
+    }
+
+	.skill{
+	display: grid;
+	grid-template-columns:  auto;
+
+
+}
+
+}
