@@ -1,8 +1,8 @@
 import React from "react";
 import "./About.css";
-import mypic from "./images/mypic.jpg";
+import mypic from "./images/mypic.jpeg";
 import { FaDownload } from "react-icons/fa";
-import resumePdf from "./resume/Prashant_Parashar_resume.pdf";
+//import resumePdf from "./resume/Prashant_Parashar_resume.pdf";
 
 function About() {
   return (
@@ -13,7 +13,7 @@ function About() {
             <img
               className="profile-pic"
               src={mypic}
-              alt="Sonny's Profile Pic"
+              alt="Prashant's Profile Pic"
             />
           </div>
           <div className="about_details">
@@ -28,12 +28,12 @@ function About() {
               language, along with that I have intermediate skills for data
               structures and algorithm. I am bit slow in designing part but yeah
               I am progressing.
-              <br />I have good data ananlysis skills. Reading about economy,
+              <br />I have good data analysis skills. Reading about economy,
               whats changing the stock market, I love to explore investing
               opportunities. I am investing for over a year now and grown my
               investing portfolio to 50% ROI in a year and half by only
-              investing in long term oppotunities. I am photographer by hobby. I
-              am always exited to click some amazing pictures.
+              investing in long term opportunities. I am photographer by hobby.
+              I am always exited to click some amazing pictures.
             </p>
             <p>
               Prashant Parashar <br />
@@ -41,7 +41,10 @@ function About() {
             </p>
             <div className="resume">
               <h3>
-                <a href={resumePdf} download>
+                <a
+                  href="https://internshala.com/student/resume_download/465A09BB-917C-B3D6-51B0-496336242655/4875526"
+                  download
+                >
                   <FaDownload style={{ bottom: "0", width: "2em" }} />
                   <span className="resumeTitle"> Download Resume</span>
                 </a>

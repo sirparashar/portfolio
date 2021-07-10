@@ -18,7 +18,7 @@
 	
 	display: grid;
 	grid-template-columns: auto auto;
-	grid-template-columns: auto auto;
+	
 	border-bottom: 1px solid rgb(196, 193, 193);
 
 
@@ -29,6 +29,30 @@
 	display: grid;
 	grid-template-columns: auto auto;
   
+}
+.blog{
+	padding: 10px 10px;
+	display: grid;
+	grid-template-columns: max-content auto;
+	border-bottom: 1px solid rgb(196, 193, 193);
+	
+  
+}
+.blog_desc{
+	margin-left: 295px;
+}
+.blog_desc > a{
+	color:rgb(78, 77, 77);
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: bold;
+	font-style: italic;
+}
+a:hover{
+	cursor: pointer;
+	text-decoration: underline;
+	color:skyblue;
+	
 }
 
 
@@ -67,8 +91,12 @@
 	.skill{
 	display: grid;
 	grid-template-columns:  auto;
-
-
-}
-
+    }
+	.blog{
+	display: grid;
+	grid-template-columns:  auto;
+	}
+	.blog_desc{
+		margin-left: 0;
+	}
 }

@@ -32,6 +32,13 @@ function Resume() {
             </p>
           </div>
         </div>
+        <div className="blog">
+          <h2 className="titles">BLOG</h2>
+          <div className="blog_desc">
+            <h3>Check out my Writings </h3>
+            <a href="https://medium.com/@sirparashar">Click me!</a>
+          </div>
+        </div>
         <div className="skill">
           <h2 className="titles">SKILLS</h2>
           <div className="Skill_desc">
