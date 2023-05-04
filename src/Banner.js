@@ -31,7 +31,6 @@ function Banner() {
           <span className="second">Parashar</span> */}
         </h1>
         <h2 className="banner_desc">
-          {<Effect name="Student" />},
           <span className="devEffect"> Developer</span>,{" "}
           {<Effect name="Investor" />}
         </h2>
